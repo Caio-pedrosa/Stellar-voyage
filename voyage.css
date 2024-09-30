@@ -1,5 +1,5 @@
-@font-face { font-family: Nasa; src: url('fontes/nasalization.otf'); }
-@font-face { font-family: Qs; src: url('fontes/Quicksand.ttf'); }
+@font-face { font-family: Nasa; src: url('nasalization.otf'); }
+@font-face { font-family: Qs; src: url('Quicksand.ttf'); }
 
 body {
     margin: 0;
@@ -85,7 +85,7 @@ body {
     position: relative;
     width: 100%;
     min-height: 750px;
-    background-image: url('imagens/astronauta.jpg');
+    background-image: url('astronauta.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
@@ -136,7 +136,7 @@ body {
 
 .servicos-section {
     padding: 50px 20px;
-    background-image:url('imagens/fundo_estrelas.jpg');
+    background-image:url('fundo_estrelas.jpg');
     text-align: center;
 }
 
