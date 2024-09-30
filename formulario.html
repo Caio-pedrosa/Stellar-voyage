@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Faça sua reserva para uma viagem espacial incrível com StellarVoyage!">
+    <title>Formulário de Pedido - StellarVoyage</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="nasa-font">STELLAR VOYAGE</h1>
+        <nav class="menu-desceu">
+            <ul>
+                <li><a href="voyage.html">Página inicial</a></li>
+                <li><a href="#formulario-pedido">Escolher pedido</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="formulario-pedido" class="form-section">
+        <div class="form-container">
+            <h2>Faça seu Pedido</h2>
+            <form action="submit.html" method="POST" class="formulario">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="telefone">Número de Telefone:</label>
+                <input type="tel" id="telefone" name="telefone" required pattern="[0-9]{11}" placeholder="Ex: 11999999999">
+    
+                <label for="pedido">Escolha seu Serviço:</label>
+                <select id="pedido" name="pedido" required>
+                    <option value="" disabled selected>Selecione uma opção</option>
+                    <option value="viagem-orbital">Viagem Orbital</option>
+                    <option value="experiencia-educativa">Experiência Educativa</option>
+                    <option value="memorabilia-espacial">Souvenir Espacial</option>
+                    <option value="viagem-personalizada">Viagem Espacial Personalizada</option>
+                </select>
+    
+                <label for="mensagem">Mensagem (opcional):</label>
+                <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva aqui sua mensagem ou observações adicionais..."></textarea>
+    
+                <button type="submit">Enviar Pedido</button>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
