@@ -1,6 +1,6 @@
 @font-face {
     font-family: Nasa;
-    src: url('fontes/nasalization.otf');
+    src: url('nasalization.otf');
 }
 
 body {
@@ -42,7 +42,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('imagens/estrelassla.jpg');
+    background-image: url('estrelassla.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
